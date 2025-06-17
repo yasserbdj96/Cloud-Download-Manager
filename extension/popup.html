@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cloud Download Manager</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="status-indicator"></div>
+    
+    <div class="toggle-container">
+      <span class="toggle-label">Intercept Downloads</span>
+      <label class="toggle-switch">
+        <input type="checkbox" id="interceptToggle">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="urlInput" placeholder="Enter download URL">
+      <button id="downloadBtn"><i class="fas fa-plus me-2"></i> Add Download</button>
+    </div>
+    
+    <div class="downloads-section">
+      <h3 class="section-toggle" data-section="active">Active Downloads</h3>
+      <div class="section-content" id="activeSection">
+        <div class="downloads-list" id="activeDownloads"></div>
+      </div>
+      
+      <h3 class="section-toggle" data-section="completed">Completed Downloads</h3>
+      <div class="section-content" id="completedSection">
+        <div class="downloads-list" id="completedDownloads"></div>
+      </div>
+    </div>
+    
+    <div class="config-section">
+      <h3 class="section-toggle" data-section="settings">Settings</h3>
+      <div class="section-content" id="settingsSection">
+        <label>API URL:
+          <input type="text" id="apiUrlInput" placeholder="Enter API URL">
+
+          <button id="saveApiUrl"><i class="fas fa-save"></i></button>
+          <button id="deleteApiUrl" style="background: #f63b3b;"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        </label>
+        
+        <label>Download Path:
+          <input type="text" id="downloadPath" placeholder="Enter download path">
+        </label>
+
+        <label>Max Concurrent:
+          <input type="number" id="maxConcurrent" min="1">
+        </label>
+        <label>Speed Limit (KB/s):
+          <input type="number" id="speedLimit" min="0">
+        </label>
+        <button id="saveConfig"><i class="fas fa-save"></i> Save Settings</button>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

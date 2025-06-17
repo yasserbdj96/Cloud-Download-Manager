@@ -1,0 +1,174 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #212529;
+    --border-color: #dee2e6;
+    --card-bg: #f8f9fa;
+    --input-bg: #ffffff;
+    --progress-bg: #e9ecef;
+    --hover-bg: #f8f9fa;
+}
+
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #e9ecef;
+    --border-color: #495057;
+    --card-bg: #2d2d2d;
+    --input-bg: #343a40;
+    --progress-bg: #495057;
+    --hover-bg: #343a40;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.download-item { 
+    transition: all 0.3s;
+    background-color: var(--bg-color);
+    border-color: var(--border-color);
+}
+
+.progress { 
+    height: 25px;
+    background-color: var(--progress-bg);
+}
+
+.status-badge { min-width: 100px; }
+.speed-display { font-size: 0.9em; color: var(--text-color); }
+
+.url-text {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.filename {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.size-info {
+    font-size: 0.85em;
+    color: var(--text-color);
+    margin-top: 3px;
+    opacity: 0.8;
+}
+
+.time-info {
+    font-size: 0.85em;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.form-control, .input-group-text {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+.form-control:focus {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+  }
+
+.modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+.list-group-item {
+    background-color: var(--bg-color);
+    border-color: var(--border-color);
+}
+
+.btn-toggle-theme {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .url-text { max-width: 150px; }
+    .filename { max-width: 120px; }
+}
+
+.open-file-btn, .open-folder-btn {
+    min-width: 90px;
+}
+
+.completed-downloads .download-item {
+    opacity: 0.8;
+    background-color: var(--card-bg);
+}
+
+.completed-downloads .progress-bar {
+    background-color: var(--border-color) !important;
+}
+
+/* Update the title color in dark mode */
+[data-theme="dark"] h1,
+[data-theme="dark"] h3 {
+    color: var(--text-color);
+}
+
+/* Filename and URL overflow handling */
+.filename {
+    max-width: none !important;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 2px;
+    color: var(--text-color);
+}
+
+.url-text {
+    max-width: none !important;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block !important;
+}
+
+/* Scrollbar styling */
+.filename::-webkit-scrollbar,
+.url-text::-webkit-scrollbar {
+    height: 3px;
+}
+
+.filename::-webkit-scrollbar-track,
+.url-text::-webkit-scrollbar-track {
+    background: var(--progress-bg);
+}
+
+.filename::-webkit-scrollbar-thumb,
+.url-text::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+
+/* Spinner styling */
+.spinner {
+    color: var(--text-color);
+    font-size: 1.5rem; /* equivalent to fs-4 */
+    margin-right: 1rem; /* equivalent to me-3 */
+    vertical-align: middle;
+    animation: spin 1s linear infinite;
+}
+
+/* Optional: smoother custom spin animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fa-clock{
+    color: var(--text-color);
+}
