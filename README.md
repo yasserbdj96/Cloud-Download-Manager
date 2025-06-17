@@ -91,29 +91,29 @@ cloud-download-manager/
   # Screenshots
 
 <div align="center">
-    <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_1.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_1.png" alt="">
+    <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_1.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_1.png" alt="">
     </a>
-<a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_2.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_2.png" alt="">
+<a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_2.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_2.png" alt="">
     </a>
-  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_3.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_3.png" alt="">
+  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_3.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_3.png" alt="">
     </a>
-  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_4.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_4.png" alt="">
+  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_4.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_4.png" alt="">
     </a>
-  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_5.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_5.png" alt="">
+  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_5.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_5.png" alt="">
     </a>
-  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_6.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_6.png" alt="">
+  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_6.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_6.png" alt="">
     </a>
-  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_7.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_7.png" alt="">
+  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_7.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_7.png" alt="">
     </a>
-  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_8.png">
-        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshot/Screenshot_8.png" alt="">
+  <a href="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_8.png">
+        <img height="100" src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/Screenshot_8.png" alt="">
     </a>
 </div>
 
