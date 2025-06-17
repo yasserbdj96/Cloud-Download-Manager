@@ -2,10 +2,10 @@
   <img src="https://raw.githubusercontent.com/yasserbdj96/Cloud-Download-Manager/main/Screenshots/logo.png" alt="hiphp by yasserbdj96" height="300">
 </div>
 
-# Cloud Download Manager 🌩️
+# 🌩️ Cloud Download Manager 
 An advanced download manager with browser integration that allows you to manage downloads in the cloud. Features include pause/resume, speed limiting, concurrent downloads, and browser extension integration.
 
-## Features ✨
+## ✨ Features 
 
 - **Browser Integration**: Chrome extension to intercept and manage downloads
 - **Pause/Resume**: Control active downloads anytime
@@ -15,7 +15,7 @@ An advanced download manager with browser integration that allows you to manage 
 - **Dark/Light Theme**: User-friendly interface with theme support
 - **File Management**: Open files/folders directly from the interface
 
-## Tech Stack 🛠️
+## 🛠️ Tech Stack 
 
 - **Backend**: Python Flask
 - **Frontend**: Bootstrap, JavaScript, HTML/CSS
@@ -23,7 +23,9 @@ An advanced download manager with browser integration that allows you to manage 
 - **Data Storage**: JSON files
 - **Networking**: SSE for real-time updates
 
-## Installation 🚀
+## 🚀 Installation 
+There is no way to install yet
+
 
 ### Prerequisites
 - Python 3.8+
@@ -48,7 +50,7 @@ python app.py
 - Click "Load unpacked" and select the /extension directory
 - Set API URL in extension popup to http://localhost:5000
 
-## Configuration ⚙️
+## ⚙️ Configuration 
 Edit config.json to customize:
 ```bash
 {
@@ -58,7 +60,7 @@ Edit config.json to customize:
 }
 ```
 
-## Usage 📖
+## 📖 Usage 
 - Access web interface at http://localhost:5000
 - Add download URLs via the web interface or browser extension
 - Manage downloads through the web dashboard:
@@ -67,7 +69,7 @@ Edit config.json to customize:
   - View download progress
   - Open downloaded files
 
-## Project Structure 📂
+## 📂 Project Structure 
 ```bash
 cloud-download-manager/
 ├── app.py                 # Flask application
